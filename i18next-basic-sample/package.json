@@ -1,0 +1,15 @@
+{
+  "name": "i18next-basic-sample",
+  "version": "1.0.0",
+  "description": "i18next basic sample",
+  "main": "index.js",
+  "repository": "git@github.com:henryhuang/i18next-samples.git",
+  "author": "Henry Huang",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "i18next": "^9.0.0"
+  }
+}
