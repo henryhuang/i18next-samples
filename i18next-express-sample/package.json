@@ -1,0 +1,19 @@
+{
+  "name": "i18next-express-sample",
+  "version": "1.0.0",
+  "description": "i18next express sample",
+  "main": "index.js",
+  "repository": "git@github.com:henryhuang/i18next-samples.git",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Henry Huang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "i18next": "^9.0.0",
+    "i18next-express-middleware": "^1.0.5",
+    "i18next-node-fs-backend": "^1.0.0",
+    "pug": "^2.0.0-rc.3"
+  }
+}

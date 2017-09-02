@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title='i18next Sample'
+    
+  body
+    h1
+      | #{t('this-is') + ' ' + t('lang')}
+    h1=t('text.hello')
+    a(href='/lang/en') EN
+    | /
+    a(href='/lang/zh-CN') 中文
