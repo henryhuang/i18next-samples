@@ -5,7 +5,7 @@ var i18n = require('i18next');
 var i18nFsBackend = require('i18next-node-fs-backend');
 var i18nMiddleware = require('i18next-express-middleware');
 
-// init i18next
+// 初始化 i18next
 i18n.use(i18nMiddleware.LanguageDetector).use(i18nFsBackend).init({
   lng: 'en',
   preload: [
